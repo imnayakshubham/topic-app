@@ -1,0 +1,29 @@
+.topic__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem 1rem;
+    border: 1px solid #d8d8d8;
+}
+
+
+.topic__card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.topic__card__action {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.topic__card__content__keywords {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}

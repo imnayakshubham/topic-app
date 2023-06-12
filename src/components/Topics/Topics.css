@@ -1,0 +1,20 @@
+.recommend__topics__header>h5 {
+    padding: 1rem;
+    margin: 0rem;
+}
+
+.recommend__topics__header {
+    border: 1px solid #d8d8d8;
+}
+
+.topics__container {
+    max-width: 75%;
+    margin: 4rem auto;
+    transition: max-width 1s ease;
+}
+
+@media (max-width :900px) {
+    .topics__container {
+        max-width: 95%;
+    }
+}

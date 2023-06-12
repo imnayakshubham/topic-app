@@ -1,0 +1,42 @@
+.blog__container {
+    max-width: 75%;
+    margin: 4rem auto;
+}
+
+.blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog__actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.blog__result {
+    padding: 1rem 0rem;
+}
+
+.ql-editor {
+    height: 40rem !important;
+    max-height: 40rem !important;
+    overflow: auto;
+}
+
+
+@media (max-width :800px) {
+    .blog__container {
+        max-width: 95%;
+    }
+
+    .blog__title {
+        font-size: 1.6rem;
+    }
+
+    .select__tone {
+        width: 9.2rem !important;
+    }
+}
